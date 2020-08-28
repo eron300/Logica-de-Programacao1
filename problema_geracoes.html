@@ -1,0 +1,27 @@
+<meta charset = "UTF-8">
+
+<script>
+
+	function pulaLinha(){
+
+		document.write("<br><br>");
+	}
+
+	function mostra(frase){
+
+		document.write(frase);
+		pulaLinha();
+
+	}
+
+	// A idade média de quando se tem filhos é de 28 anos.
+	
+	var chegadaPortugueses = 1500
+	
+	var anoAtual = 2020
+	
+	var numeroGeracoes = (anoAtual - chegadaPortugueses) / 28
+
+	mostra("Desde a chegada dos Portugueses houveram " + Math.round(numeroGeracoes) + " gerações.")
+
+</script>
